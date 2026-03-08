@@ -1,0 +1,30 @@
+{
+  "C001": {
+    "language": "Hindi",
+    "draft": "आदरणीय श्री शर्मा जी, हमें खेद है कि आपको बार-बार एक ही समस्या बतानी पड़ी। हम देख सकते हैं कि आपने 4 मार्च को कॉल किया था और 5 मार्च को ब्रांच विजिट की थी। आपकी EMI बाउंस की समस्या के लिए हम तुरंत EMI पुनर्गठन का प्रस्ताव भेज रहे हैं। कृपया कल सुबह 10 बजे तक हमारा संदेश प्रतीक्षा करें।",
+    "poweredBy": "LLaMA 3 (Self-hosted)",
+    "generatedIn": "2.3 seconds",
+    "contextUsed": ["IVR call transcript (Mar 4)", "Branch visit log (Mar 5)", "Customer profile", "Star Sahyog EMI restructuring scheme"]
+  },
+  "C002": {
+    "language": "Tamil",
+    "draft": "அன்புள்ள திருமதி வெங்கடராமன், உங்கள் வீட்டுக் கடன் வட்டி விகிதம் குறித்த விசாரணைக்கு நன்றி. Bank of India-ன் Star Home Loan திட்டத்தில் 8.1% சிறப்பு வட்டி விகிதம் கிடைக்கிறது.",
+    "poweredBy": "LLaMA 3 (Self-hosted)",
+    "generatedIn": "2.1 seconds",
+    "contextUsed": ["Mobile app browsing history", "Competitor rate comparison", "Star Home Loan scheme details"]
+  },
+  "C004": {
+    "language": "Punjabi",
+    "draft": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਸ੍ਰੀ ਧਿੱਲੋਂ ਜੀ, ਅਸੀਂ ਸਮਝਦੇ ਹਾਂ ਕਿ ਤੁਹਾਡੇ ਕਾਰੋਬਾਰ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆਈ ਹੈ। Bank of India ਦੀ Star Sahyog ਯੋਜਨਾ ਤਹਿਤ ਅਸੀਂ ਤੁਹਾਡੀ EMI ਨੂੰ 3 ਮਹੀਨਿਆਂ ਲਈ ਮੁਲਤਵੀ ਕਰ ਸਕਦੇ ਹਾਂ।",
+    "poweredBy": "LLaMA 3 (Self-hosted)",
+    "generatedIn": "2.5 seconds",
+    "contextUsed": ["IVR call transcript (Mar 1)", "WhatsApp message (Mar 8)", "Business loan account details"]
+  },
+  "DEFAULT": {
+    "language": "English",
+    "draft": "Dear Valued Customer, thank you for reaching out to Bank of India. We have reviewed your query and our team will get back to you within 24 hours with a resolution.",
+    "poweredBy": "LLaMA 3 (Self-hosted)",
+    "generatedIn": "1.5 seconds",
+    "contextUsed": ["Customer profile", "Recent interactions", "Account details"]
+  }
+}
