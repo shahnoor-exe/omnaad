@@ -36,8 +36,11 @@ export default function AutoDraftBox({ draft, language, poweredBy, generatedIn, 
 
   return (
     <div className="bg-gray-900/80 backdrop-blur-sm rounded-2xl p-5 border border-gray-700/50 shadow-2xl">
-      <div className="text-xs text-blue-400 font-mono mb-3 bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1">
-        🔬 DEMO: Pre-written draft | ⚡ PRODUCTION: LLaMA 3 8B via Ollama | Self-hosted | RBI Compliant
+      <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-3">
+        🔬 DEMO: Template matching  |  ⚡ PRODUCTION: LLaMA 3 8B via Ollama | Self-hosted | RBI Compliant
+      </div>
+      <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-3">
+        🧠 CONTEXT: Neo4j Memory Graph | Customer relationship context | Cross-channel history
       </div>
 
       <div className="flex items-center justify-between mb-3">

@@ -6,6 +6,8 @@
 
 **🏆 PSBs Hackathon IDEA 2.0 — Bank of India**
 
+🌐 **Live Demo:** [https://omnaadaiplatform.vercel.app/](https://omnaadaiplatform.vercel.app/)
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shahnoor-exe/omnaad)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
@@ -94,6 +96,10 @@ Public-sector banks handle **50 million+** daily interactions across voice, SMS,
 ---
 
 ## 🚀 Quick Start
+
+### 🌐 Live Deployment
+
+**Vercel:** [https://omnaadaiplatform.vercel.app/](https://omnaadaiplatform.vercel.app/)
 
 ### Prerequisites
 - Node.js 20+

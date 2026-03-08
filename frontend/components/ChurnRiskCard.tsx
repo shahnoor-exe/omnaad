@@ -15,8 +15,8 @@ export default function ChurnRiskCard({ churnRisk, churnReason, customerName }: 
 
   return (
     <div className="bg-gray-900/80 backdrop-blur-sm rounded-2xl p-5 border border-gray-700/50 shadow-2xl">
-      <div className="text-xs text-blue-400 font-mono mb-3 bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1">
-        🔬 DEMO: Rule-based score | ⚡ PRODUCTION: XGBoost + BERT signals | Apache Airflow retraining
+      <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-3">
+        🔬 DEMO: Static risk scores  |  ⚡ PRODUCTION: XGBoost + BERT behavioral signals | Apache Airflow retraining
       </div>
 
       <h3 className="text-sm font-bold text-gray-300 uppercase tracking-wider mb-4">

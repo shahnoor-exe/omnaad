@@ -18,8 +18,8 @@ export default function SentimentDial({ currentSentiment }: { currentSentiment: 
   return (
     <div className="flex flex-col items-center p-6 bg-gray-900/80 backdrop-blur-sm rounded-2xl border border-gray-700/50 shadow-2xl">
       {/* Production label */}
-      <div className="text-xs text-blue-400 mb-3 font-mono bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1">
-        🔬 DEMO: Mock data | ⚡ PRODUCTION: RoBERTa fine-tuned | Real-time WebSocket | &lt;200ms
+      <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-3">
+        🔬 DEMO: Keyword-based scoring  |  ⚡ PRODUCTION: BERT fine-tuned | 8-class intent | F1: 0.92 | &lt;200ms
       </div>
 
       {/* Gauge SVG */}

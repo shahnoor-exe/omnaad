@@ -28,8 +28,8 @@ export default function AnomalyAlert({ region, type, spike, affected, message, o
         />
 
         <div className="relative z-10">
-          <div className="text-xs text-blue-400 font-mono mb-3 bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1 inline-block">
-            🔬 DEMO: Mock alert | ⚡ PRODUCTION: Apache Kafka anomaly detection + Elasticsearch
+          <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-3 inline-block">
+            🔬 DEMO: Threshold-based spike  |  ⚡ PRODUCTION: Isolation Forest real-time + Kafka Streams + Elasticsearch
           </div>
 
           <div className="flex items-start gap-3">

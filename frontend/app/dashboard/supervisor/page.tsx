@@ -65,8 +65,8 @@ export default function SupervisorDashboard() {
 
       <div className="max-w-7xl mx-auto p-6">
         {/* Production label */}
-        <div className="text-xs text-blue-400 font-mono mb-6 bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1 inline-block">
-          🔬 DEMO: Mock metrics | ⚡ PRODUCTION: Real-time Kafka streams + Elasticsearch analytics + Grafana
+        <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-6 inline-block">
+          🔬 DEMO: Mock metrics  |  ⚡ PRODUCTION: Real-time Kafka Streams + Elasticsearch analytics + Grafana dashboards
         </div>
 
         {/* Anomaly Alert */}

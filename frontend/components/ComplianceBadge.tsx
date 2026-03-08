@@ -47,8 +47,8 @@ export default function ComplianceBadge({ onComplete, autoRun = true, forceRed =
 
   return (
     <div className="bg-gray-900/80 backdrop-blur-sm rounded-2xl p-5 border border-gray-700/50 shadow-2xl">
-      <div className="text-xs text-blue-400 font-mono mb-4 bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1">
-        🔬 DEMO: Rule-based simulation | ⚡ PRODUCTION: TRAI API + DPDP PostgreSQL + LLaMA 3 (30 RBI Rules)
+      <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-4">
+        🔬 DEMO: Regex pattern matching  |  ⚡ PRODUCTION: TRAI DNC API + DPDP Consent DB + 30 RBI Rules
       </div>
 
       <h3 className="text-sm font-bold text-gray-300 uppercase tracking-wider mb-3">

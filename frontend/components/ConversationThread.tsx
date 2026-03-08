@@ -30,8 +30,8 @@ const intentBadgeColors: Record<string, string> = {
 export default function ConversationThread({ events, customerName }: Props) {
   return (
     <div className="bg-gray-900/80 backdrop-blur-sm rounded-2xl p-5 border border-gray-700/50 shadow-2xl">
-      <div className="text-xs text-blue-400 font-mono mb-3 bg-blue-950/50 border border-blue-700/30 rounded-lg px-3 py-1">
-        🔬 DEMO: Static data | ⚡ PRODUCTION: Apache Kafka | Real-time 6-channel event stream
+      <div className="text-xs font-mono bg-blue-950 border border-blue-700 rounded px-2 py-1 text-blue-300 mb-3">
+        🔬 DEMO: Mock timeline  |  ⚡ PRODUCTION: Apache Kafka | 10,000 events/sec | 6 channel topics
       </div>
 
       <h3 className="text-sm font-bold text-gray-300 uppercase tracking-wider mb-4">
