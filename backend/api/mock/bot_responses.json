@@ -1,0 +1,26 @@
+{
+  "scenarios": [
+    { "triggers": ["hello", "hi", "hey", "namaste"], "response": "Hello! Welcome to Bank of India 🏦 I'm OmNaad AI — your omni-channel assistant. How can I help you today?" },
+    { "triggers": ["loan", "karz", "rin"], "response": "I can help with loans! We offer Home Loans (8.4% p.a.), Personal Loans (10.5% p.a.), and Education Loans (9.0% p.a.). Which interests you?" },
+    { "triggers": ["balance", "statement"], "response": "For security, I'll verify via OTP. Savings A/c ****6789 — ₹2,45,678.90 | FD — ₹5,00,000 (maturity: 15-Mar-2025)." },
+    { "triggers": ["complaint", "shikayat", "problem"], "response": "I'm sorry to hear that. Let me help file a complaint. Could you describe the issue? I'll assign a tracking ID." },
+    { "triggers": ["fraud", "dhokha", "unauthorized"], "response": "🚨 Fraud alert registered. Escalating to security team immediately. Account flagged for enhanced monitoring." },
+    { "triggers": ["agent", "speak", "human", "person"], "response": "Connecting you to a live agent. Your full chat history will be shared. Please hold..." },
+    { "triggers": ["interest", "rate", "dar"], "response": "Current rates: Savings — 2.7% p.a. | FD (1yr) — 6.8% | RD — 6.5% | Home Loan — 8.4%. Effective 01-Jan-2025." },
+    { "triggers": ["kyc", "document", "verify"], "response": "Complete KYC via: 1) Video KYC on portal 2) Nearest BOI branch 3) Upload on Self-Service Portal." },
+    { "triggers": ["credit card", "card"], "response": "BOI cards: 1) Pride Card (No fee) 2) Elite+ (Lounge + 5x rewards) 3) Business Card (GST). Want details?" },
+    { "triggers": ["emi", "installment"], "response": "₹10L Home Loan at 8.4% for 20 years: EMI ≈ ₹8,614/month. Want different amount/tenure?" },
+    { "triggers": ["transfer", "send money", "neft", "rtgs", "imps"], "response": "Use our Self-Service Portal for NEFT, RTGS, IMPS transfers. I can guide you through the process." },
+    { "triggers": ["branch", "location", "atm"], "response": "I can find nearby BOI branches and ATMs. Please share your city or PIN code." },
+    { "triggers": ["fd", "fixed deposit", "recurring"], "response": "BOI FD rates: 1yr — 6.8% | 2yr — 7.0% | 5yr — 7.25%. Senior citizens get +0.50%. Open online or at branch." },
+    { "triggers": ["insurance", "bima"], "response": "BOI offers Star Health Insurance, BOI Star Premier, and PMJJBY. Want me to compare plans?" },
+    { "triggers": ["mutual fund", "sip", "invest"], "response": "BOI Mutual Fund SIPs start at ₹500/month. Popular: BOI AXA Balanced Fund, BOI Large Cap. Shall I guide?" },
+    { "triggers": ["close account", "band karo"], "response": "I understand you wish to close your account. Before proceeding, may I know the reason? We'd like to help resolve any concerns." },
+    { "triggers": ["thank", "shukriya", "dhanyavaad"], "response": "You're welcome! 😊 Is there anything else I can help with? BOI is always here for you." },
+    { "triggers": ["otp", "password", "login"], "response": "For security, I cannot share or reset credentials via chat. Please use Forgot Password on the app, or visit a branch with valid ID." },
+    { "triggers": ["help", "madad", "sahayata"], "response": "I can help with: Account queries, Loans, Cards, Complaints, KYC, Transfers, and more. What do you need?" },
+    { "triggers": ["ppf", "provident fund"], "response": "BOI PPF account: current rate 7.1% p.a., 15-year lock-in, tax-free under Section 80C. Open at branch or online." }
+  ],
+  "fallback": "Thank you for your message. Let me analyze that using our AI engine. Could you provide more details?",
+  "demo_note": "20 pre-written scenarios · PRODUCTION: LLaMA 3 8B generates real-time responses"
+}

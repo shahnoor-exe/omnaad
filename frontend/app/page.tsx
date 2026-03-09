@@ -123,6 +123,24 @@ export default function Home() {
             Supervisor
           </Link>
           <Link
+            href="/customer/chat"
+            className="text-sm text-gray-400 hover:text-gray-200 transition-colors"
+          >
+            Chat
+          </Link>
+          <Link
+            href="/customer/portal"
+            className="text-sm text-gray-400 hover:text-gray-200 transition-colors"
+          >
+            Portal
+          </Link>
+          <Link
+            href="/customer/preferences"
+            className="text-sm text-gray-400 hover:text-gray-200 transition-colors"
+          >
+            Preferences
+          </Link>
+          <Link
             href="/dashboard"
             className="bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 text-white text-sm font-medium rounded-lg px-4 py-2 transition-all shadow-lg shadow-blue-500/20 hover:shadow-blue-500/30"
           >
@@ -223,6 +241,15 @@ export default function Home() {
               className="bg-gray-800/50 border border-gray-700/50 text-gray-300 font-medium text-lg rounded-xl px-8 py-4 hover:bg-gray-800/80 transition-all"
             >
               📊 Supervisor Dashboard
+            </motion.button>
+          </Link>
+          <Link href="/customer/chat">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-gray-800/50 border border-emerald-500/30 text-emerald-300 font-medium text-lg rounded-xl px-8 py-4 hover:bg-emerald-950/30 transition-all"
+            >
+              💬 Customer Chat
             </motion.button>
           </Link>
         </motion.div>
@@ -369,6 +396,87 @@ export default function Home() {
               ))}
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Customer Experience Section */}
+      <section className="relative z-10 max-w-7xl mx-auto px-6 py-24">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-3xl md:text-4xl font-black text-center mb-4"
+        >
+          <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            Customer Experience
+          </span>
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="text-gray-500 text-center mb-12 max-w-xl mx-auto"
+        >
+          Experience what your customers see — AI chat, self-service, and full preference control
+        </motion.p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            {
+              icon: '💬',
+              title: 'AI Chat Widget',
+              desc: 'Conversational AI with intent detection, sentiment analysis, and seamless live-agent handoff',
+              prod: 'LLaMA 3 8B + BERT intent + Kafka events',
+              href: '/customer/chat',
+              gradient: 'from-blue-600 to-violet-600',
+              glow: 'shadow-blue-500/20',
+            },
+            {
+              icon: '📋',
+              title: 'Self-Service Portal',
+              desc: 'Track complaints across all channels with real-time timeline and relationship health scoring',
+              prod: 'Kafka 10K events/sec + Neo4j graph + XGBoost',
+              href: '/customer/portal',
+              gradient: 'from-emerald-600 to-cyan-600',
+              glow: 'shadow-emerald-500/20',
+            },
+            {
+              icon: '⚙️',
+              title: 'Preference Centre',
+              desc: 'DPDP-compliant consent management with 8 languages, DND schedules, and compliance verification',
+              prod: 'DPDP Consent DB + TRAI DNC API + 30 RBI Rules',
+              href: '/customer/preferences',
+              gradient: 'from-violet-600 to-rose-600',
+              glow: 'shadow-violet-500/20',
+            },
+          ].map((item, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.15 }}
+            >
+              <Link href={item.href}>
+                <motion.div
+                  whileHover={{ y: -8, boxShadow: '0 25px 60px rgba(0,0,0,0.4)' }}
+                  className={`bg-gray-900/60 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 cursor-pointer group h-full shadow-xl ${item.glow}`}
+                >
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">
+                    {item.icon}
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-100 mb-2 group-hover:text-blue-400 transition-colors">{item.title}</h3>
+                  <p className="text-sm text-gray-400 mb-4">{item.desc}</p>
+                  <div className="text-[10px] text-blue-400 font-mono bg-blue-950/30 border border-blue-700/20 rounded-lg px-2 py-1 mb-4">
+                    ⚡ PRODUCTION: {item.prod}
+                  </div>
+                  <div className={`bg-gradient-to-r ${item.gradient} text-white text-xs font-bold rounded-lg px-4 py-2 text-center group-hover:shadow-lg transition-shadow`}>
+                    Explore →
+                  </div>
+                </motion.div>
+              </Link>
+            </motion.div>
+          ))}
         </div>
       </section>
 
